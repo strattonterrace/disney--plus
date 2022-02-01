@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
+
 function Movies() {
   return (
   
@@ -8,16 +9,16 @@ function Movies() {
       <h4>Recommended For You</h4>
       <Content>
         <Wrap>
-            <img src="https://variety.com/wp-content/uploads/2020/05/the-simpsons-1.png?w=681&h=383&crop=1" />
+            <img src="https://variety.com/wp-content/uploads/2020/05/the-simpsons-1.png?w=681&h=383&crop=1" alt="disney"/>
         </Wrap>
         <Wrap>
-            <img src="https://variety.com/wp-content/uploads/2020/05/the-simpsons-1.png?w=681&h=383&crop=1" />
+            <img src="https://variety.com/wp-content/uploads/2020/05/the-simpsons-1.png?w=681&h=383&crop=1" alt="disney"/>
         </Wrap>
         <Wrap>
-            <img src="https://variety.com/wp-content/uploads/2020/05/the-simpsons-1.png?w=681&h=383&crop=1" />
+            <img src="https://variety.com/wp-content/uploads/2020/05/the-simpsons-1.png?w=681&h=383&crop=1" alt="disney"/>
         </Wrap>
         <Wrap>
-            <img src="https://variety.com/wp-content/uploads/2020/05/the-simpsons-1.png?w=681&h=383&crop=1" />
+            <img src="https://variety.com/wp-content/uploads/2020/05/the-simpsons-1.png?w=681&h=383&crop=1" alt="disney"/>
         </Wrap>
       </Content>
   </Container>
