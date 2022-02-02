@@ -149,12 +149,16 @@ const SubTitle = styled.div`
   
 
 `
-const Description = styled.div`
+const Description = styled.p`
+    max-width: 580px;
     line-height: 1.4;
     font-size: 20px;
+    text-align: left;
     margin-top: 16px;
     margin-left: 20px;
     color: rgb(249, 249, 249, 249)
+    letter-spacing: 1.5px;
+    line-height: 1.5;
 
     
 `
