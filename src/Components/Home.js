@@ -15,6 +15,10 @@ function Home() {
       })
   }, [])
 
+  // useEffect(()=>{
+  //   console.log("Hello World!")
+  // })
+
   return (
 
   <Container>
