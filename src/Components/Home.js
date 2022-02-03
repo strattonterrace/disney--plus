@@ -10,14 +10,11 @@ function Home() {
   useEffect(()=>{
       db.collection('movies').onSnapshot((snapshot)=>{
         let tempMovies = snapshot.docs.map((doc)=>{
+            // console.log(doc.data());
             return { id: doc.id, ...doc.data() }
         })
       })
   }, [])
-
-  // useEffect(()=>{
-  //   console.log("Hello World!")
-  // })
 
   return (
 
@@ -50,3 +47,9 @@ const Container = styled.main`
     z-index: -1;
   }
 `
+
+  // useEffect(()=>{
+  //   db.collection("Movies").onClick((click)=>{
+  //     console.log(click);
+  //   })
+  // }, [])
